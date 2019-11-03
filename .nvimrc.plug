@@ -1,0 +1,46 @@
+call plug#begin('~/.config/nvim/plugged')
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+
+"Fugitive Vim Github Wrapper
+Plug 'tpope/vim-fugitive'
+"git diff in gutter
+Plug 'airblade/vim-gitgutter'
+
+Plug 'scrooloose/nerdtree'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'fcpg/vim-fahrenheit'
+Plug 'fcpg/vim-orbital'
+Plug 'neovimhaskell/haskell-vim'
+Plug 'w0rp/ale'
+" Reverse the order of commits in a git interactive rebase
+Plug 'salcode/vim-interactive-rebase-reverse'
+
+Plug 'philip-karlsson/bolt.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'jiangmiao/auto-pairs'
+
+Plug 'autozimu/LanguageClient-neovim', {
+    \ 'branch': 'next',
+    \ 'do': 'bash install.sh',
+    \ }
+
+" (Optional) Multi-entry selection UI.
+Plug 'junegunn/fzf'
+
+Plug 'ndmitchell/ghcid', { 'rtp': 'plugins/nvim' }
+"Support for writing Nix expressions in vim
+Plug 'LnL7/vim-nix'
+
+Plug 'neovimhaskell/haskell-vim'
+
+Plug 'alx741/vim-stylishask'
+
+Plug 'kien/ctrlp.vim'
+
+Plug 'ryanoasis/vim-devicons'
+
+Plug 'direnv/direnv.vim'
+
+call plug#end()
