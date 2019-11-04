@@ -51,7 +51,7 @@ Follwing are the plugins list for `vscode` for haskell projects.
 
   Makes hoogle search easier.
 
- [Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)
+### [Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)
 
   highlight trailing spaces.
 
